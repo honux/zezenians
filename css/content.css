@@ -1,0 +1,241 @@
+/* Default */
+body 
+{
+	font-family: 'Trebuchet MS';
+	font-size: 11px;
+	color: #000000;
+	line-height: 14px;
+	height: 100%;
+	margin: 4px;
+	background-color: #F8F8F8;
+	text-align: left;
+}
+
+img 
+{
+	border: 0;
+}
+
+a, a:link, a:hover, a:visited
+{
+	font-family: 'Trebuchet MS';
+	color: #37568C;
+	text-decoration: none;
+}
+
+/* Body */
+/* To follow a standard code, all the content styles starts with the 'c' letter */
+
+.cbody
+{
+	border: #CCCCCC solid 1px;
+	padding: 4px 5px 2px 5px;
+}
+
+.cquote 
+{
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	background-color: #F0F0F0;
+	font-weight: bold;
+	width: 78%;
+}
+
+
+/* 'l' for local */
+
+.clocal 
+{
+	text-align: left;
+	font-size: 9px;
+	color: #666666;
+}
+
+.clocal a
+{
+	font-size: 9px; 
+	color: #37568C; 
+	text-decoration: none;
+}
+
+.clbar
+{
+	background-color: #E7EAEF;
+	border: #BEC8D6 solid 1px;
+	width: 103%;
+	height: 25px;
+	z-index: 1;
+	margin-left: -10px;
+	margin-bottom: 10px;
+}
+
+.cltitle
+{
+	font-family: "Gill Sans MT", "Segoe UI", "Trebuchet MS";
+	font-size: 18px;
+	position: absolute;
+	margin: 6px 0 0 10px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+}
+
+/* 'n' for news */
+
+.cnews
+{
+	padding-bottom: 10px;
+}
+
+a.cnews:link, a.cnews:visited, a.clink:hover
+{
+	color: #37568C; 
+	text-decoration: none;
+}
+
+.cnbar
+{
+	background-color: #E7EAEF;
+	border: #BEC8D6 solid 1px;
+	height: 21px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cntitle
+{
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 0 0 8px;
+	text-align: left;
+	position: absolute;
+}
+
+.cnauthor
+{
+	font-size: 9px;
+	text-align: left;
+	padding-left:6px;
+	color:#666666;
+}
+
+.cncontent
+{
+	padding: 4px 5px 2px 6px;
+}
+
+.cnabar
+{
+	padding-top: 10px;
+	text-align: right;
+	line-height: 25px;
+}
+
+.cnweb
+{
+	font-family: Verdana;
+	font-size: 9px;
+	width: 55px;
+	height: 13px;
+	background-color: #37568C;
+	color: #FFFFFF;
+	border: 1px solid #203251;
+	margin: 3px;
+	padding: 0 2px 0 2px;
+	text-align: center;
+}
+
+.cnzezenia
+{
+	font-family: Verdana;
+	font-size: 9px;
+	width: 55px;
+	height: 13px;
+	background-color: #3399CC;
+	color: #FFFFFF;
+	border: 1px solid #257094;
+	margin: 3px;
+	padding: 0 2px 0 2px;
+	text-align: center;
+}
+
+.cnoff
+{
+	font-family: Verdana;
+	font-size: 9px;
+	width: 55px;
+	height: 13px;
+	background-color: #AE0000;
+	color: #FFFFFF;
+	border: 1px solid #990000;
+	margin: 3px;
+	padding: 0 2px 0 2px;
+	text-align: center;
+}
+
+/* i for Items */
+
+.cibox
+{
+	border: #000000 solid 1px;
+	width: 100px;
+	height: 80px;
+	margin: 6px;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+	color: #000000;
+}
+
+.cibox:hover
+{
+	cursor: pointer;
+	background-color: #E7EAEF;
+}
+
+/* id = item details */
+
+.cidname
+{
+	font-size: 15pt; 
+	font-weight: bold; 
+	color: #000000;
+	margin: 7px;
+}
+
+.cidinfo
+{
+	font-size: 10pt; 
+	color: #000000;
+	text-align: left;
+}
+
+/* User Login Area */
+
+.cuser_input
+{
+	font-size: 10px;
+	font-family: 'Trebuchet MS';
+	color: #0B333C;
+	height: 14px;
+	border-bottom: 1px solid #D8DADB;
+	border-right: 1px solid #D8DADB;
+	border-top: 1px solid #7D7F80;
+	border-left: 1px solid #7D7F80;
+	width: 90px;
+	text-align: left;
+	padding-left: 3px;
+	margin-bottom: 3px;
+}
+
+.cuser_button
+{
+	background-color: #f5f5f5; 
+	font-size: 8pt;
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #cccccc; 
+	font-family: Verdana; 
+	margin-bottom: 6px;
+	margin-top: 7px;
+}
